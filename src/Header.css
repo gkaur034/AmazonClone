@@ -1,0 +1,80 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0 20px;
+  }
+  
+  .header_logo {
+    width: 97px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 6px;
+    
+  }
+
+  .header__searchInput {
+    flex: 1; /* Makes the input take up most of the available space */
+    height: 100%; /* Ensures the input has the same height as the container */
+    padding: 8px; /* Adjust padding as needed */
+    border: none;
+    outline: none; /* Remove default focus outline */
+    border-radius: 6px 0 0 6px; /* Rounded left corners */
+  }
+
+  .header_searchIcon {
+    padding: 5px;
+    height: 22px;
+    background-color: #cd9042;
+    display: flex;
+    align-items: center;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+
+  .header__optionLineOne {
+    font-size: 10px;
+  }
+
+  .header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  .header_optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  
+  
