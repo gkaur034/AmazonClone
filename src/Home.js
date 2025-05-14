@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import Product from './Product.js';
+import Product from './Product';
 
 function Home() {
   return (
@@ -24,7 +24,7 @@ function Home() {
           title = "Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl" 
           price= {239.99} 
           image = 'https://s3-eu-west-1.amazonaws.com/media.markselectrical.co.uk/item-images/zoom/0W20011391.jpg' 
-          rating = {3} />                           
+          rating = {5} />                           
         </div>
 
         <div className='home__row'>
@@ -32,28 +32,28 @@ function Home() {
           <Product 
             title = "Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor" 
             price= {189.99} 
-            image = 'https://m.media-amazon.com/images/I/81QEJYyspjL._AC_UF894,1000_QL80_.jpg' 
-            rating = {3} />
+            image = 'https://cdn-tp2.mozu.com/28945-m4/cms/files/L1304200.jpg' 
+            rating = {2} />
 
           <Product 
             title = "Amazon Echo (3rd generation), Smart speaker with Alexa, Charcoal Fabric" 
             price= {99.99} 
-            image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYn2xaF1fUPgpw12_3pCnA0ADoB9iIHdFYVQ&s' 
-            rating = {5} />
+            image = 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSkChUNn9Ck7uIcK5gDHKPDatMNKaPZ6F0gvtcZQX7hVVPjUgKym-tnmKa8Ez8ectPoXPqtsDK167Gg6AN-O3o_elad7OHPiNo9YPOOu7H5ZiHkyOOZDFr4u4edw-CRYa8ca_9swwo&usqp=CAc' 
+            rating = {3} />
 
           <Product 
-            title = "Gaming Keyboard, 104 Keys All-Metal Panel, Dacoity Rainbow LED Backlit Quiet Computer Keyboard, Wrist Rest, Multimedia Keys, Anti-ghosting Keys, Waterproof Light Up USB Wired Keyboard for PC Mac Xbox" 
+            title = "New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)" 
             price= {39.99} 
-            image = 'https://m.media-amazon.com/images/I/71TiZRp+8SL._AC_UF894,1000_QL80_.jpg' 
+            image = 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/refurb-ipad-pro-12-wificell-spacegray-2021?wid=2300&hei=2300&fmt=jpeg&qlt=90&.v=1674663709258' 
             rating = {3} />                   
         </div> 
 
         <div className='home__row'>
        
           <Product 
-            title = "New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)" 
+            title = "Gaming Keyboard, 104 Keys All-Metal Panel, Dacoity Rainbow LED Backlit Quiet Computer Keyboard, Wrist Rest, Multimedia Keys, Anti-ghosting Keys, Waterproof Light Up USB Wired Keyboard for PC Mac Xbox" 
             price= {799.99} 
-            image = 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/refurb-ipad-pro-12-wificell-spacegray-2021?wid=2300&hei=2300&fmt=jpeg&qlt=90&.v=1674663709258' 
+            image = 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSnL2MYeqS3GgIJt94zV8SNQ5Qp60gOAFI4wFqgDgGUlYQOPrvaN87qkgBCgNjqj3n_bZSsq6nfAUQ5CriJr5RUMkvmppLJJVIRGwaKeY9FuujbPzF7g3pZtA' 
             rating = {4} />           
         </div>   
     </div>
