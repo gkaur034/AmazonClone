@@ -8,12 +8,12 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
-  row-gap: 8px;
+  
 }
 
 .product__rating {
-  display: flex;
-  margin-top: 1px;
+ display: flex;
+ margin-bottom: 20px;
   
 }
 
@@ -33,11 +33,11 @@
 }
 
 .product__price {
-  margin-top: 2px;
+  margin-top: 1px;
+
 }
 
 .product__info {
-  height: 100px;
-  
+  height: 100px; 
   text-align: left;
 }

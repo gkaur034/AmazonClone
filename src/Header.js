@@ -38,15 +38,14 @@ function Header() {
             <span className='header__optionLineTwo'>Prime</span>   
           </div>
 
-          
-          <div className="header_optionBasket">
+          <Link to='/checkout'>
+            <div className="header_optionBasket">
             <ShoppingBasketIcon />
             <span className="header__optionLineTwo header__basketCount">
               0
             </span>
           </div>
-        
-             
+          </Link>             
         </div>
     </div>
   )
