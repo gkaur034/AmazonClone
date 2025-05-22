@@ -2,18 +2,28 @@ import './App.css';
 import Checkout from './Checkout';
 import Header from './Header';
 import Home from './Home';
+import Login from './Login';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
+       
         <Routes>
+          <Route
+            path="/login"
+            element={
+              <>               
+                <Login />
+              </>
+            }
+          />
           <Route
             path="/checkout"
             element={
-              <>               
+              <>  
+                <Header />             
                 <Checkout />
               </>
             }
@@ -22,6 +32,7 @@ function App() {
             path="/"
             element={
               <>
+                <Header />
                 <Home />
               </>
             }
